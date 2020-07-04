@@ -7,4 +7,4 @@ docker run -it --rm \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /dev/snd:/dev/snd \
 -v /home/orausch:/home/root \
-nvvp nvvp
+nvvp /usr/local/cuda-10.1/bin/nvvp
